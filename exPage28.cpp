@@ -5,7 +5,7 @@ using namespace std;
 // Function to check if input string s is accepted by the DFA
 bool validS(int q0, string s, int arFinalState[], int sizeF, int **arTrans, char arEdgeVal[], int sizeE) {
     int q = q0;  // Start from initial state
-
+//
     for (char ch : s) {
         int j;
         for (j = 0; j < sizeE; j++) {

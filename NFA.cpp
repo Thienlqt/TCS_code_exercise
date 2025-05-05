@@ -39,7 +39,7 @@ unordered_set<string> move(const unordered_set<string>& states, const string& sy
     }
     return result;
 }
-
+//
 
 NFA readNFA() {
     NFA nfa;
